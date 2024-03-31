@@ -17,4 +17,13 @@ class BankAccount {
         this.balance -= amount;
     }
 
+    getBalance() {
+        return this.balance;
+    }
+
+    displayAccountInfo() {
+        console.log(
+            `Account UID : ${this.uid} \nOwner : ${this.ownerName} \nBalance : ${this.balance}`
+        );
+    }
 }
