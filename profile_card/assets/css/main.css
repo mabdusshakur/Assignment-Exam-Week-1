@@ -28,3 +28,101 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+
+/* Profile Card Styles */
+
+.profile-card {
+
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 5px;
+}
+
+.profile-card h2 {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-size: 1.5rem;
+}
+
+#occupation {
+    font-family: var(--title-font);
+    color: var(--sub-title-color);
+    font-weight: 700;
+}
+
+#description {
+    font-family: var(--body-font);
+    color: var(--body-color);
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+/* BEGIN: Contact Details Styles */
+.contact-details {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    border-top: 2px dotted var(--border-color);
+    border-bottom: 2px dotted var(--border-color);
+    padding: 2px 0;
+}
+
+.contact-details p {
+    font-family: var(--body-font);
+    color: var(--body-color);
+    font-size: 0.9rem;
+}
+
+.contact-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* END: Contact Details Styles */
+
+
+
+/* BEGIN: Social Links Styles */
+.social-links {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social-links a:nth-child(1) {
+    color: #006eff;
+}
+
+.social-links a:nth-child(2) {
+    color: #0362c7;
+}
+
+.social-links a:nth-child(3) {
+    color: #303030;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* END: Social Links Styles */
