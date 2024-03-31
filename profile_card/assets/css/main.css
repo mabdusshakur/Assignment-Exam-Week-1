@@ -1,0 +1,30 @@
+/* FILEPATH: /C:/Users/the_v/Code/Ostad-Laravel-course/Assignment-Exam-Week-1/profile_card/assets/css/main.css */
+
+/* Google Fonts */
+/* - Nunito: 200, 300, 400, 600, 700, 800, 900, 1000 */
+/* - PT Sans: 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Variables */
+:root {
+    --title-font: 'Nunito', sans-serif;
+    --body-font: 'PT Sans', sans-serif;
+    --title-color: #333;
+    --sub-title-color: #4e4d4d;
+    --body-color: #666;
+    --border-color: #636363;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
