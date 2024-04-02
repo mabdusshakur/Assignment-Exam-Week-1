@@ -57,7 +57,7 @@ calculateButton.addEventListener('click', () => {
 
     // checkpoint for division by 0
     if (operators === 'division' && num2 === 0) {
-        appendAlert('This Cant be Deviced By 0', 'warning');
+        appendAlert('This Cant be divided By 0', 'warning');
         return;
     }
 
